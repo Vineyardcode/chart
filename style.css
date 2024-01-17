@@ -1,12 +1,19 @@
 body{
-  font-family:'Courier New', Courier, monospace;
-  background-color:lightgray;
-  margin:0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightgray;
+  margin: 0;
 }
 
 table,td{
   border:2px solid white;
-  padding:5px;
-  text-align:center;
-  border-collapse:collapse;
+  padding: 5px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#chartContainer{
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0,-50%);
 }
